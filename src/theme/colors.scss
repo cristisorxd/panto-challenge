@@ -1,0 +1,29 @@
+$gold: #e58411;
+$bg-gray: #f7f7f7;
+
+$font-weights: (
+  "bold": bold,
+  "normal": normal,
+);
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../utils/fonts/gilroy/Gilroy-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../utils/fonts/gilroy/Gilroy-Medium.ttf");
+}
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("../utils/fonts/gilroy/Gilroy-Regular.ttf");
+}
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("../utils/fonts/gilroy/Gilroy-SemiBold.ttf");
+}
+
+$bold: "Gilroy-Bold";
+$medium: "Gilroy-Medium";
+$regular: "Gilroy-Regular";
+$semi-bold: "Gilroy-SemiBold";

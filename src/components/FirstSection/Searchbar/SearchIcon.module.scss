@@ -1,0 +1,17 @@
+@import "../../../theme/colors.scss";
+.circle {
+  width: 40px;
+  height: 40px;
+  background: $gold;
+  border-radius: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 0.25vw;
+}
+
+.img {
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}

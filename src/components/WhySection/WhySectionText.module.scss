@@ -1,0 +1,44 @@
+@import "../../theme/colors.scss";
+
+.titleText {
+  font-family: $bold;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  color: #1e1e1e;
+  opacity: 0.9;
+}
+
+.contentText {
+  font-family: $regular;
+  font-size: 1rem;
+  color: #1e1e1e;
+  opacity: 0.8;
+  line-height: 185%;
+  width: 284px;
+  height: 90px;
+}
+
+.moreInfoText {
+  font-family: $medium;
+  font-size: 0.875rem;
+  line-height: 185%;
+  color: $gold;
+  margin-right: 1.09rem;
+  text-decoration: none;
+
+  &:hover {
+    color: #1e1e1e;
+  }
+}
+
+.arrowImage {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}

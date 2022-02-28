@@ -1,0 +1,77 @@
+@import "../../theme/colors.scss";
+
+.alignContent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 16rem auto;
+}
+
+.moreInfoText {
+  font-family: $medium;
+  color: $gold;
+  margin-right: 1.1rem;
+  text-decoration: none;
+}
+
+.title {
+  font-family: $semi-bold;
+  font-size: 1.2rem;
+  letter-spacing: 0.175em;
+  color: $gold;
+}
+
+.subtitle {
+  font-family: $bold;
+  width: 65%;
+  font-size: 2.625rem;
+  color: #1e1e1e;
+}
+
+.contentText {
+  font-family: $regular;
+  width: 556px;
+  height: 132px;
+  font-size: 18px;
+  line-height: 185%;
+  color: #1e1e1e;
+  opacity: 0.8;
+}
+
+.experienceRectangle1 {
+  position: absolute;
+  top: 167.5vh;
+  left: -5vw;
+  width: 495px;
+  height: 422px;
+  background-color: white;
+  border-radius: 20px;
+  z-index: -2;
+}
+
+.experienceRectangle2 {
+  position: absolute;
+  top: 180vh;
+  left: 10%;
+  width: 495px;
+  height: 301px;
+  background: white;
+  border-radius: 20px;
+  z-index: -3;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  z-index: 10;
+}
+
+.blurredImg {
+  position: absolute;
+  left: 20px;
+  filter: blur(50px);
+  border-radius: 49px;
+  z-index: -1;
+  width: 500px;
+  height: 550px;
+}

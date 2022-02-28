@@ -1,0 +1,19 @@
+@import "../../theme/colors.scss";
+
+.logoText {
+  font-family: $bold;
+  font-size: 1.8rem;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+
+  &:hover {
+    color: $gold;
+  }
+}
+.whiteColor {
+  color: white;
+}
+.blackColor {
+  color: black;
+}

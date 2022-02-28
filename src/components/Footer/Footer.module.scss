@@ -1,0 +1,56 @@
+@import "../../theme/colors.scss";
+.background {
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f7f7f7;
+  height: 50%;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+}
+
+.title {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 22px;
+  letter-spacing: -0.231818px;
+  color: $gold;
+}
+
+.sections {
+  margin-left: 14vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 12vw;
+}
+
+.subtitleText {
+  font-family: $medium;
+  font-size: 1rem;
+  line-height: 160%;
+  opacity: 0.8;
+  width: 18vw;
+  margin-top: 3vh;
+}
+
+.downFooter {
+  display: flex;
+  justify-content: space-between;
+  margin: 6vh 13vw 0 14vw;
+
+  .copyrightText {
+    font-family: sans-serif;
+    font-size: 1rem;
+    opacity: 0.5;
+  }
+  .privacyPolicyText {
+    font-family: $medium;
+    display: flex;
+    font-size: 1rem;
+    color: #1e1e1e;
+    opacity: 0.8;
+    gap: 0 2vw;
+  }
+}

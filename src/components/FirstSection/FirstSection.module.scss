@@ -1,0 +1,43 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../theme/colors.scss";
+
+.firstSection {
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 86.13%,
+      #ffffff 100%
+    ),
+    url("../../images/fsBackground.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 100vh;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  height: 74vh;
+}
+
+.title {
+  font-family: $bold;
+  font-size: 4.9vw;
+  letter-spacing: -0.01em;
+  text-transform: capitalize;
+  line-height: 130%;
+  text-align: center;
+  padding: 0 16vw;
+}
+
+.subtitle {
+  font-size: 1.5vw;
+  line-height: 160%;
+  color: #ffffff;
+  opacity: 0.8;
+  padding: 1.4vh 28.958vw 4.6vh;
+  text-align: center;
+}
