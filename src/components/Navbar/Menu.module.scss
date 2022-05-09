@@ -58,3 +58,24 @@
   background: none;
   color: #ffffff;
 }
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 92vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    transition: all 0.5s ease;
+    z-index: 100;
+
+    &.active {
+      background-color: black;
+      left: 0;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+  }
+}

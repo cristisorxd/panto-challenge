@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2vw;
+  margin-top: 4rem;
+}
+
+.carouselCart {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.leftBtn {
+  font-size: 3rem;
+  cursor: pointer;
+  margin-right: -5.5vw;
+  margin-top: 10vh;
+  z-index: 10;
+  color: black;
+}
+
+.rightBtn {
+  font-size: 3rem;
+  cursor: pointer;
+  margin-left: -5.5vw;
+  margin-top: 10vh;
+  z-index: 10;
+}

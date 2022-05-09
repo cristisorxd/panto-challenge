@@ -1,4 +1,5 @@
 import React from "react";
+
 import classes from "./FirstSection.module.scss";
 import Searchbar from "./Searchbar/Searchbar";
 import strings from "../../theme/strings";

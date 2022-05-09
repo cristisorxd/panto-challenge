@@ -7,11 +7,11 @@
       rgba(255, 255, 255, 0) 86.13%,
       #ffffff 100%
     ),
-    url("../../images/fsBackground.svg");
+    url("../../images/fsBackgroundImg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  height: 100vh;
+  min-height: 130vh;
 }
 
 .sectionContainer {
@@ -20,7 +20,7 @@
   align-items: center;
   color: white;
   justify-content: center;
-  height: 74vh;
+  padding-top: 9rem;
 }
 
 .title {
@@ -37,7 +37,6 @@
   font-size: 1.5vw;
   line-height: 160%;
   color: #ffffff;
-  opacity: 0.8;
   padding: 1.4vh 28.958vw 4.6vh;
   text-align: center;
 }

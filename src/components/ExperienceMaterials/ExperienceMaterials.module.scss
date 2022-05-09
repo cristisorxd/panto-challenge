@@ -4,13 +4,32 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 16rem auto;
+}
+
+.textSection {
+  display: block;
+
+  &.alignSelf {
+    align-self: center;
+  }
+
+  & img {
+    display: inline;
+    width: 2vw;
+    margin-left: 0.5vw;
+  }
+}
+
+.alignContentReverse {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin: 15vh 0 15vh 5vw;
 }
 
 .moreInfoText {
   font-family: $medium;
   color: $gold;
-  margin-right: 1.1rem;
   text-decoration: none;
 }
 
@@ -38,30 +57,8 @@
   opacity: 0.8;
 }
 
-.experienceRectangle1 {
-  position: absolute;
-  top: 167.5vh;
-  left: -5vw;
-  width: 495px;
-  height: 422px;
-  background-color: white;
-  border-radius: 20px;
-  z-index: -2;
-}
-
-.experienceRectangle2 {
-  position: absolute;
-  top: 180vh;
-  left: 10%;
-  width: 495px;
-  height: 301px;
-  background: white;
-  border-radius: 20px;
-  z-index: -3;
-}
-
-.img {
-  max-width: 100%;
+.img1 {
+  width: 35vw;
   height: auto;
   z-index: 10;
 }
@@ -74,4 +71,39 @@
   z-index: -1;
   width: 500px;
   height: 550px;
+}
+
+.materials {
+  display: flex;
+  gap: 4vw;
+
+  .secondaryPhotos {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    gap: 4vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .alignContent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .textSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    margin: 1rem auto;
+  }
+
+  .img1 {
+    width: 50vw;
+    border-radius: 5%;
+  }
 }
