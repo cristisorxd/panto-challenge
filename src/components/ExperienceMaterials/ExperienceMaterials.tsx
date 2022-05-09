@@ -1,10 +1,11 @@
 import React from "react";
-import classes from "./ExperienceMaterials.module.scss";
 import { Link } from "react-router-dom";
+
+import classes from "./ExperienceMaterials.module.scss";
 import images from "../../theme/images";
 
 interface Props {
-  mainPhoto: string;
+  mainPhoto?: string;
   photo1?: string;
   photo2?: string;
   photo3?: string;
@@ -27,24 +28,34 @@ const ExperienceMaterials = ({
   experience,
 }: Props) => {
   return (
-    <div className={classes.alignContent}>
+    <div
+      className={
+        experience ? classes.alignContent : classes.alignContentReverse
+      }
+    >
       <div>
         {experience ? (
           <>
-            <img className={classes.img} src={mainPhoto} />
+            <img className={classes.img1} src={mainPhoto} />
             <img className={classes.blurredImg} src={mainPhoto} />
-            <div className={classes.experienceRectangle1}></div>
-            <div className={classes.experienceRectangle2}></div>
           </>
         ) : (
-          <>
-            <img src={photo1} />
-            <img src={photo2} />
+          <div className={classes.materials}>
+            <span className={classes.secondaryPhotos}>
+              <img src={photo1} />
+              <img src={photo2} />
+            </span>
             <img src={photo3} />
-          </>
+          </div>
         )}
       </div>
-      <div>
+      <div
+        className={
+          experience
+            ? classes.textSection
+            : `${classes.textSection} ${classes.alignSelf}`
+        }
+      >
         <h1 className={classes.title}>{title}</h1>
         <h2 className={classes.subtitle}>{subtitle}</h2>
         <p className={classes.contentText}>{contentText}</p>

@@ -1,3 +1,41 @@
-.alignCenter {
-    text-align: center;
+@import "../../theme/colors.scss";
+
+.mainContainer {
+  min-width: 100%;
+  background-color: $bg-gray;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.title {
+  align-self: center;
+  padding-top: 5.5rem;
+  margin-bottom: 3rem;
+}
+
+.btnGroup {
+  padding: 6px;
+  margin: 0 auto;
+  max-width: fit-content;
+  border-radius: 44px;
+  background-color: #eeeeee;
+
+  & button {
+    padding: 4px;
+    border: none;
+    padding: 10px 24px;
+    &:focus {
+      background: #ffffff;
+      border-radius: 32px;
+    }
+  }
+}
+
+.viewAllBtn {
+  align-self: center;
+  text-decoration: none;
+  color: $gold;
 }

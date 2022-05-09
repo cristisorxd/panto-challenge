@@ -1,4 +1,5 @@
 import React from "react";
+
 import classes from "./SearchIcon.module.scss";
 import images from "../../../theme/images";
 

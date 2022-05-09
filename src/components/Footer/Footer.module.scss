@@ -1,4 +1,5 @@
 @import "../../theme/colors.scss";
+
 .background {
   position: relative;
   left: 0;
@@ -20,7 +21,7 @@
 }
 
 .sections {
-  margin-left: 14vw;
+  margin-left: 13rem;
   display: flex;
   flex-wrap: wrap;
   gap: 0 12vw;
@@ -32,13 +33,13 @@
   line-height: 160%;
   opacity: 0.8;
   width: 18vw;
-  margin-top: 3vh;
+  margin-top: 3rem;
 }
 
 .downFooter {
   display: flex;
   justify-content: space-between;
-  margin: 6vh 13vw 0 14vw;
+  margin: 6rem 13rem 0 13rem;
 
   .copyrightText {
     font-family: sans-serif;
@@ -52,5 +53,11 @@
     color: #1e1e1e;
     opacity: 0.8;
     gap: 0 2vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .downFooter {
+    gap: 2rem;
   }
 }

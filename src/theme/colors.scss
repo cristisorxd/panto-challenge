@@ -23,6 +23,11 @@ $font-weights: (
   src: url("../utils/fonts/gilroy/Gilroy-SemiBold.ttf");
 }
 
+@font-face {
+  font-family: "Inter";
+  src: url('../utils/fonts/inter/Inter-Light.ttf');
+}
+
 $bold: "Gilroy-Bold";
 $medium: "Gilroy-Medium";
 $regular: "Gilroy-Regular";

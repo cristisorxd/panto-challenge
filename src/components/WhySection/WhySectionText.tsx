@@ -1,6 +1,7 @@
 import React from "react";
-import classes from "./WhySectionText.module.scss";
 import { Link } from "react-router-dom";
+
+import classes from "./WhySectionText.module.scss";
 import strings from "../../theme/strings";
 import images from "../../theme/images";
 

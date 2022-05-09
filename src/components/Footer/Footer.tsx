@@ -1,4 +1,5 @@
 import React from "react";
+
 import Logo from "../Logo/Logo";
 import classes from "./Footer.module.scss";
 import FooterSections from "./FooterSections";
@@ -17,10 +18,12 @@ const Footer = () => {
         <FooterSections />
       </div>
       <div className={classes.downFooter}>
-        <p className={classes.copyrightText}>Copyright © 2021</p>
+        <p className={classes.copyrightText}>
+          {strings.footerExtraText.copyright}
+        </p>
         <span className={classes.privacyPolicyText}>
-          <p>Terms & Conditions</p>
-          <p>Privacy Policy</p>
+          <p>{strings.footerExtraText.termsConditions}</p>
+          <p>{strings.footerExtraText.privacy}</p>
         </span>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React from "react";
+
 import classes from "./FooterSections.module.scss";
 import strings from "../../theme/strings";
 

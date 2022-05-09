@@ -2,6 +2,24 @@ import images from "./images";
 
 const moreInfo = "More Info";
 const strings = {
+  navbar: {
+    furniture: "Furniture",
+    chairs: "Chairs",
+    sofas: "Sofas",
+    lamps: "Lamps",
+    beds: "Beds",
+    shop: "Shop",
+    about: "About Us",
+    contact: "Contact",
+  },
+  auth: {
+    name: "name",
+    email: "email",
+    password: "password",
+    passwordConfirm: "password-confirm",
+    signIn: "Sign In",
+    signUp: "Sign Up",
+  },
   logoTitle: "Panto",
   bestSellingProduct: "Best Selling Product",
   firstSection: {
@@ -112,6 +130,9 @@ const strings = {
   footerExtraText: {
     subtitle:
       "The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.",
+    copyright: "Copyright © 2021",
+    privacy: "Privacy Policy",
+    termsConditions: "Terms & Conditions",
   },
 
   experiences: {
@@ -128,6 +149,62 @@ const strings = {
     content:
       "Because panto was very serious about designing furniture for our environment, using a very expensive and famous capital but at a relatively low price",
     moreInfo,
+  },
+  testimonials: {
+    title: "TESTIMONIALS",
+    subtitle: "Our Client Reviews",
+    reviews: [
+      {
+        id: 1,
+        bgImage: images.carouselImg1,
+        icon: images.reviewClientIcon,
+        name: "Bang Upin",
+        otherName: "Pedagang Asongan",
+        reviewText:
+          "“Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“",
+        numberOfStars: 5,
+      },
+      {
+        id: 2,
+        bgImage: images.carouselImg2,
+        icon: images.reviewClientIcon,
+        name: "Bang Upin",
+        otherName: "Pedagang Asongan",
+        reviewText:
+          "“Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“",
+        numberOfStars: 4,
+      },
+      {
+        id: 3,
+        bgImage: images.carouselImg3,
+        icon: images.reviewClientIcon,
+        name: "Bang Upin",
+        otherName: "Pedagang Asongan",
+        reviewText:
+          "“Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“",
+        numberOfStars: 3,
+      },
+      {
+        id: 4,
+        bgImage: images.carouselImg1,
+        icon: images.reviewClientIcon,
+        name: "Bang Upin",
+        otherName: "Pedagang Asongan",
+        reviewText:
+          "“Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“",
+        numberOfStars: 5,
+      },
+      {
+        id: 5,
+        bgImage: images.carouselImg1,
+        icon: images.reviewClientIcon,
+        name: "Bang Upin",
+        otherName: "Pedagang Asongan",
+        reviewText:
+          "“Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“",
+        numberOfStars: 5,
+      },
+    ],
   },
 };
 

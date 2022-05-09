@@ -1,11 +1,13 @@
-import React from 'react';
-import Footer from '../../components/Footer/Footer';
-import Navigationbar from '../../components/Navbar/Navigationbar';
+import React from "react";
+
+import Navigationbar from "../../components/Navbar/Navigationbar";
 
 const BlankPage = () => {
-  return <div>
-    <Navigationbar />
-  </div>;
+  return (
+    <div>
+      <Navigationbar darkNavbar />
+    </div>
+  );
 };
 
 export default BlankPage;

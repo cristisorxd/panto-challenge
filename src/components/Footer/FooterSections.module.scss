@@ -38,3 +38,11 @@
     color: $gold;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .sections {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+}

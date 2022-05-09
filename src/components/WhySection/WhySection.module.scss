@@ -14,3 +14,12 @@
   justify-content: space-evenly;
   padding-top: 8rem;
 }
+
+@media screen and (max-width: 768px) { 
+  .container {
+    gap: 2rem;
+  }
+  .headingText {
+    align-self: center;
+  }
+}

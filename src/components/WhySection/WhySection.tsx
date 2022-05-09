@@ -1,4 +1,5 @@
 import React from "react";
+
 import classes from "./WhySection.module.scss";
 import strings from "../../theme/strings";
 import WhySectionText from "./WhySectionText";

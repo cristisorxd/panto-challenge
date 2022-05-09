@@ -1,0 +1,56 @@
+@import "../../theme/colors.scss";
+
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #141e30;
+}
+
+.loginBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40vw;
+  padding: 2.5rem;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+
+  & h5 {
+    margin: 0 0 2rem;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  & input {
+    width: 100%;
+    padding: 0.6rem 0;
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    &:focus {
+        border-bottom: 1px solid $gold;
+    }
+  }
+
+  & button {
+    background-color: $gold;
+    color: white;
+    padding: 0.6rem 1.4rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    border-radius: 10%;
+  }
+
+  & label {
+    color: white;
+  }
+}
